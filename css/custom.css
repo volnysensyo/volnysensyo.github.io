@@ -225,9 +225,8 @@ color: white;}
           margin-right:6.25rem;}
 .push {margin-top:3.125rem;}
 
-
-
-
+.ceobox {text-align:center; position: absolute;}
+.ceoparentbox {position: relative;}
 
 .ceophoto {
   width: 12.5rem;
