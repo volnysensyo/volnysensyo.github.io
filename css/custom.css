@@ -264,10 +264,7 @@ color: white;}
   
   .aboutheroimage {
     width:100%;
-    background:     linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
-    linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 100%),
-    url('/images/sensyo-metal-finishing-and-plating-factory-line-from-aboe.jpg');
-        background-repeat: no-repeat;
+    background-repeat: no-repeat;
     background-position: center;
     background-size:cover;
     background-attachment: fixed;
