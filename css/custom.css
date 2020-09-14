@@ -1,93 +1,124 @@
-
 /*
 TYPOGRAPHY RULES
 */
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&family=Roboto:wght@300&display=swap');
-
-@media screen and (min-width : 0px) and (max-width : 975px) {
-.rounded-pill {margin-bottom:1rem;}
-.marginbottom {margin-bottom:2rem;}
-}
-
-@media screen and (min-width : 0px) and (max-width : 768px) {
-  .whitespace {
-    padding-top:4rem;
-    padding-left:2rem;
-    padding-right:2rem;
-    padding-bottom:4rem;}
+@media screen and (min-width: 0px) and (max-width: 975px) {
+  .rounded-pill {
+    margin-bottom: 1rem;
   }
-@media screen and (min-width : 769px) {
-  .whitespace {
-    padding-top:9.375rem;
-    padding-left:6.25rem;
-    padding-right:6.25rem;
-    padding-bottom:9.375rem;}
+  .marginbottom {
+    margin-bottom: 2rem;
+  }
 }
 
+@media screen and (min-width: 0px) and (max-width: 768px) {
+  .whitespace {
+    padding-top: 4rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 4rem;
+  }
+}
 
-@media screen and (min-width : 0px) and (max-width : 768px) {
+@media screen and (min-width: 769px) {
+  .whitespace {
+    padding-top: 9.375rem;
+    padding-left: 6.25rem;
+    padding-right: 6.25rem;
+    padding-bottom: 9.375rem;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 768px) {
   .cleanresponsive {
-    padding-top:0rem;
-    padding-left:0rem;
-    padding-right:0rem;
-    padding-bottom:0rem;}
+    padding-top: 0rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    padding-bottom: 0rem;
   }
+}
 
-body {color:black;}
+body {
+  color: black;
+}
 
-.ofh {overflow:hidden;}
+.ofh {
+  overflow: hidden;
+}
 
-.h0 {font-size: 4rem;
-  line-height: 150%;}
+.h0 {
+  font-size: 4rem;
+  line-height: 150%;
+}
 
-  @media screen and (min-width : 0px) and (max-width : 768px) {
-    .h0 {font-size: 2.5rem;
-      line-height: 150%;}
-    }
-
-h1 {font-size: 4rem;
+@media screen and (min-width: 0px) and (max-width: 768px) {
+  .h0 {
+    font-size: 2.5rem;
     line-height: 150%;
-    font-family: 'Poppins', sans-serif;
-  font-weight: 800;}
+  }
+}
 
-  @media screen and (min-width : 0px) and (max-width : 768px) {
-    h1 {font-size: 2.5rem;
-      line-height: 150%;}
-    }
-
-h2 {font-size: 4rem;
+h1 {
+  font-size: 4rem;
   line-height: 150%;
   font-family: 'Poppins', sans-serif;
-  font-weight: 800;}
+  font-weight: 800;
+}
 
- @media screen and (min-width : 0px) and (max-width : 768px) {
-h2 {font-size: 2.5rem;
-  line-height: 150%;}
-    }
-
-h3 {font-size: 2.25rem;
+@media screen and (min-width: 0px) and (max-width: 768px) {
+  h1 {
+    font-size: 2.5rem;
     line-height: 150%;
-    font-family: 'Poppins', sans-serif;
-  font-weight: 400;}
+  }
+}
 
-p {font-size: 1.125rem;
+h2 {
+  font-size: 4rem;
+  line-height: 150%;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+}
+
+@media screen and (min-width: 0px) and (max-width: 768px) {
+  h2 {
+    font-size: 2.5rem;
+    line-height: 150%;
+  }
+}
+
+h3 {
+  font-size: 2.25rem;
+  line-height: 150%;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+
+p {
+  font-size: 1.125rem;
   line-height: 2.625rem;
   font-family: 'Roboto', sans-serif;
-  font-weight: 300;}
-  
+  font-weight: 300;
+}
 
-td {font-size: 1.125rem;
-    line-height: 2.625rem;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;}
+td {
+  font-size: 1.125rem;
+  line-height: 2.625rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
 
-.bleedmargin {margin-bottom:1rem;}
+.bleedmargin {
+  margin-bottom: 1rem;
+}
 
-.navbar-brand {font-size: 2.25rem;}
+.navbar-brand {
+  font-size: 2.25rem;
+}
 
 .robotolight {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
 }
 
 .poppinsregular {
@@ -106,9 +137,9 @@ td {font-size: 1.125rem;
   background: url('/images/sensyo-logomark-monoblack.png');
   background-repeat: no-repeat;
   background-position: center;
-  background-size:cover;
+  background-size: cover;
   background-attachment: absolute;
-  margin-right:6.25rem;
+  margin-right: 6.25rem;
 }
 
 .nav-link {
@@ -123,56 +154,67 @@ td {font-size: 1.125rem;
 SECTIONS RULES
 */
 
-.mid {vertical-align: middle;
+.mid {
+  vertical-align: middle;
 }
 
-li {list-style-type:none;
+li {
+  list-style-type: none;
 }
 
-ul {list-style-type:none;
+ul {
+  list-style-type: none;
 }
 
-@media screen and (min-width : 0px) and (max-width : 768px) {
-  ul {list-style-type:none;
-    padding:1rem;}
-      }
-
-.mt-32 {margin-top:2rem;
+@media screen and (min-width: 0px) and (max-width: 768px) {
+  ul {
+    list-style-type: none;
+    padding: 1rem;
+  }
 }
 
+.mt-32 {
+  margin-top: 2rem;
+}
 
-
-@media screen and (min-width : 0px) and (max-width : 768px) {
+@media screen and (min-width: 0px) and (max-width: 768px) {
   .footerwhitespace {
-    padding-top:2rem;
-    padding-left:2rem;
-    padding-right:2rem;
-    padding-bottom:0rem;}
-      }
-
-@media screen and (min-width : 769px) {
-  .footerwhitespace {
-    padding-top:2rem;
-    padding-left:6.25rem;
-    padding-right:6.25rem;
-    padding-bottom:0rem;}
-    }
-
-
-@media screen and (min-width : 0px) and (max-width : 769px) {
-.displaynone {display:none;}}
-
-@media screen and (min-width : 0px) and (max-width : 769px) {
-  .btnmid {margin-left:auto;margin-right:auto; position:absolute;}
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 0rem;
+  }
 }
 
-.clean
-{padding:0px;}
+@media screen and (min-width: 769px) {
+  .footerwhitespace {
+    padding-top: 2rem;
+    padding-left: 6.25rem;
+    padding-right: 6.25rem;
+    padding-bottom: 0rem;
+  }
+}
 
-.inverted {background-color:black;
-color: white;}
+@media screen and (min-width: 0px) and (max-width: 769px) {
+  .btnmid {
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+  }
+}
 
-.rounded-pill {border-radius:6.25rem;}
+.clean {
+  padding: 0px;
+}
+
+.inverted {
+  background-color: black;
+  color: white;
+}
+
+.rounded-pill {
+  border-radius: 6.25rem;
+}
 
 .servicesphoto {
   min-width: 9.375rem;
@@ -182,10 +224,11 @@ color: white;}
   background: url('/images/airplanes-wing-taken-by-sheila.jpg');
   background-repeat: no-repeat;
   background-position: center;
-  background-size:cover;
+  background-size: cover;
   background-attachment: absolute;
-  margin-right:6.25rem;
+  margin-right: 6.25rem;
 }
+
 .developmentphoto {
   min-width: 9.375rem;
   min-height: 9.375rem;
@@ -194,10 +237,11 @@ color: white;}
   background: url('/images/chemistry-glass-containers-by-rodolfo-clix.jpg');
   background-repeat: no-repeat;
   background-position: center;
-  background-size:cover;
+  background-size: cover;
   background-attachment: absolute;
-  margin-right:6.25rem;
+  margin-right: 6.25rem;
 }
+
 .consultingphoto {
   min-width: 9.375rem;
   min-height: 9.375rem;
@@ -206,9 +250,9 @@ color: white;}
   background: url('/images/two-men-talking-about-plating.jpg');
   background-repeat: no-repeat;
   background-position: center;
-  background-size:cover;
+  background-size: cover;
   background-attachment: absolute;
-  margin-right:6.25rem;
+  margin-right: 6.25rem;
 }
 
 .nickelphoto {
@@ -219,147 +263,169 @@ color: white;}
   background: url('/images/image 2-min.png');
   background-repeat: no-repeat;
   background-position: center;
-  background-size:cover;
+  background-size: cover;
   background-attachment: absolute;
-  margin-right:6.25rem;}
-
-  .tinphoto {
-    min-width: 9.375rem;
-    min-height: 9.375rem;
-    max-width: 9.375rem;
-    max-height: 9.375rem;
-    background: url('/images/image 2-1-min.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size:cover;
-    background-attachment: absolute;
-    margin-right:6.25rem;}
-
-    .hardchromephoto {
-      min-width: 9.375rem;
-      min-height: 9.375rem;
-      max-width: 9.375rem;
-      max-height: 9.375rem;
-      background: url('/images/image 2-2-min.png');
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size:cover;
-      background-attachment: absolute;
-      margin-right:6.25rem;}
-
-      .nickelchromephoto {
-        min-width: 9.375rem;
-        min-height: 9.375rem;
-        max-width: 9.375rem;
-        max-height: 9.375rem;
-        background: url('/images/image 2-3-min.png');
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size:cover;
-        background-attachment: absolute;
-        margin-right:6.25rem;}
-
-        .electrolessnickelphoto {
-          min-width: 9.375rem;
-          min-height: 9.375rem;
-          max-width: 9.375rem;
-          max-height: 9.375rem;
-          background: url('/images/image 2-4-min.png');
-          background-repeat: no-repeat;
-          background-position: center;
-          background-size:cover;
-          background-attachment: absolute;
-          margin-right:6.25rem;}
-.push {margin-top:3.125rem;}
-.pushright {margin-left:30px;}
-
-
-@media only screen and (max-width : 768px) {
-.ceobox {text-align:center;}
-.ceophoto {
-  width: 12.5rem;
-  height: 12.5rem;
-  background: url('/images/ceo-of-sensyo-horiuchi-mayuko.jpg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size:cover;
-  background-attachment: absolute;
-  margin-left:auto;
-  margin-right:auto;}
+  margin-right: 6.25rem;
 }
 
-@media only screen and (min-width : 769px) {
-  .ceobox {text-align:left;}
+.tinphoto {
+  min-width: 9.375rem;
+  min-height: 9.375rem;
+  max-width: 9.375rem;
+  max-height: 9.375rem;
+  background: url('/images/image 2-1-min.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: absolute;
+  margin-right: 6.25rem;
+}
+
+.hardchromephoto {
+  min-width: 9.375rem;
+  min-height: 9.375rem;
+  max-width: 9.375rem;
+  max-height: 9.375rem;
+  background: url('/images/image 2-2-min.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: absolute;
+  margin-right: 6.25rem;
+}
+
+.nickelchromephoto {
+  min-width: 9.375rem;
+  min-height: 9.375rem;
+  max-width: 9.375rem;
+  max-height: 9.375rem;
+  background: url('/images/image 2-3-min.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: absolute;
+  margin-right: 6.25rem;
+}
+
+.electrolessnickelphoto {
+  min-width: 9.375rem;
+  min-height: 9.375rem;
+  max-width: 9.375rem;
+  max-height: 9.375rem;
+  background: url('/images/image 2-4-min.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: absolute;
+  margin-right: 6.25rem;
+}
+
+.push {
+  margin-top: 3.125rem;
+}
+
+.pushright {
+  margin-left: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+  .ceobox {
+    text-align: center;
+  }
   .ceophoto {
     width: 12.5rem;
     height: 12.5rem;
     background: url('/images/ceo-of-sensyo-horiuchi-mayuko.jpg');
     background-repeat: no-repeat;
     background-position: center;
-    background-size:cover;
+    background-size: cover;
     background-attachment: absolute;
-    margin-right:auto;
-    margin-left:0px;}
+    margin-left: auto;
+    margin-right: auto;
   }
+}
+
+@media only screen and (max-width: 576px) {
+  .photobox {
+    text-align: center;
+  }
+  .photoitem {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+  }
+}
+
+.photoitem {
+  margin-bottom: 2rem;
+}
+
+@media only screen and (min-width: 769px) {
+  .ceobox {
+    text-align: left;
+  }
+  .ceophoto {
+    width: 12.5rem;
+    height: 12.5rem;
+    background: url('/images/ceo-of-sensyo-horiuchi-mayuko.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: absolute;
+    margin-right: auto;
+    margin-left: 0px;
+  }
+}
 
 .homeheroimage {
-    width:100%;
-    background:
-    linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
-    linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 100%),
-    url('/images/white-room-filled-with-medical-equipment.jpeg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size:cover;
-    background-attachment: absolute;
-  }
+  width: 100%;
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 100%), url('/images/white-room-filled-with-medical-equipment.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: absolute;
+}
 
-  .footerleft {
-    width:100%;
-    background:
-    linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-    url('/images/sensyo-metal-finishing-and-plating-factory.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size:cover;
-    background-attachment: absolute;
-  }
-  
-  .aboutheroimage {
-    width:100%;
-    background: url('/images/sensyo-metal-finishing-and-plating-factory-line-from-aboe.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size:cover;
-    background-attachment: fixed;
-  }
+.footerleft {
+  width: 100%;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('/images/sensyo-metal-finishing-and-plating-factory.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: absolute;
+}
 
-  .servicesheroimage {
-    width:100%;
-    background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
-    linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 100%),
-    url('/images/bullettrain-at-the-platform-taken-by-donald-tong.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size:cover;
-    background-attachment: fixed;
-  }
+.aboutheroimage {
+  width: 100%;
+  background: url('/images/sensyo-metal-finishing-and-plating-factory-line-from-aboe.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
 
+.servicesheroimage {
+  width: 100%;
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 100%), url('/images/bullettrain-at-the-platform-taken-by-donald-tong.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
 
-  .intro {
-    width:100%;
+.intro {
+  width: 100%;
+}
 
-  }
+.services {
+  width: 100%;
+}
 
-  .services {
-    width:100%;
-  }
-
-
-  .slowfadein {
-    display: inline-block;
-    margin: 0 0.5rem;
-  
-    animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
-    animation-duration: 5s; /* don't forget to set a duration! */
-  }
+.slowfadein {
+  display: inline-block;
+  margin: 0 0.5rem;
+  animation: fadeIn;
+  /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 5s;
+  /* don't forget to set a duration! */
+}
