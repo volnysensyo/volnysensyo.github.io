@@ -4,8 +4,9 @@ TYPOGRAPHY RULES
 */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&family=Roboto:wght@300&display=swap');
 
-@media screen and (min-width : 0px) and (max-width : 768px) {
-.rounded-pill {margin-bottom:32px;}
+@media screen and (min-width : 0px) and (max-width : 975px) {
+.rounded-pill {margin-bottom:1rem;}
+.marginbottom {margin-bottom:2rem;}
 }
 
 @media screen and (min-width : 0px) and (max-width : 768px) {
@@ -23,17 +24,47 @@ TYPOGRAPHY RULES
     padding-bottom:9.375rem;}
 }
 
+
+@media screen and (min-width : 0px) and (max-width : 768px) {
+  .cleanresponsive {
+    padding-top:0rem;
+    padding-left:0rem;
+    padding-right:0rem;
+    padding-bottom:0rem;}
+  }
+
 body {color:black;}
+
+.ofh {overflow:hidden;}
+
 .h0 {font-size: 4rem;
-  line-height: 6rem;}
+  line-height: 150%;}
+
+  @media screen and (min-width : 0px) and (max-width : 768px) {
+    .h0 {font-size: 3.5rem;
+  line-height: 5rem;}
+    }
+
 h1 {font-size: 4rem;
     line-height: 150%;
     font-family: 'Poppins', sans-serif;
   font-weight: 800;}
+
+  @media screen and (min-width : 0px) and (max-width : 768px) {
+    .h1 {font-size: 3.5rem;
+      line-height: 150%;}
+    }
+
 h2 {font-size: 4rem;
   line-height: 150%;
   font-family: 'Poppins', sans-serif;
   font-weight: 800;}
+
+ @media screen and (min-width : 0px) and (max-width : 768px) {
+h2 {font-size: 3rem;
+      line-height: 150%;}
+    }
+
 h3 {font-size: 2.25rem;
     line-height: 150%;
     font-family: 'Poppins', sans-serif;
@@ -97,8 +128,14 @@ SECTIONS RULES
 
 li {list-style-type:none;
 }
+
 ul {list-style-type:none;
 }
+
+@media screen and (min-width : 0px) and (max-width : 768px) {
+  ul {list-style-type:none;
+    padding:1rem;}
+      }
 
 .mt-32 {margin-top:2rem;
 }
@@ -112,6 +149,7 @@ ul {list-style-type:none;
     padding-right:2rem;
     padding-bottom:0rem;}
       }
+
 @media screen and (min-width : 769px) {
   .footerwhitespace {
     padding-top:2rem;
@@ -121,11 +159,12 @@ ul {list-style-type:none;
     }
 
 
-@media screen and (min-width : 0px) and (max-width : 966px) {
-.rounded-pill{
-        display:none;}    }
-@media screen and (min-width : 769px) {      
-        }
+@media screen and (min-width : 0px) and (max-width : 769px) {
+.displaynone {display:none;}}
+
+@media screen and (min-width : 0px) and (max-width : 769px) {
+  .btnmid {margin-left:auto;margin-right:auto; position:absolute;}
+}
 
 .clean
 {padding:0px;}
@@ -287,7 +326,7 @@ color: white;}
   
   .aboutheroimage {
     width:100%;
-    background: url('/images/about');
+    background: url('/images/sensyo-metal-finishing-and-plating-factory-line-from-aboe.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size:cover;
