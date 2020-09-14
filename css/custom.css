@@ -320,6 +320,10 @@ ul {
   margin-right: 6.25rem;
 }
 
+label {
+  width: 100%;
+}
+
 .push {
   margin-top: 3.125rem;
 }
