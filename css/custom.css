@@ -2,7 +2,7 @@
 TYPOGRAPHY RULES
 */
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&family=Roboto:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&family=Roboto:wght@300&display=swap");
 @media screen and (min-width: 0px) and (max-width: 975px) {
   .rounded-pill {
     margin-bottom: 1rem;
@@ -62,7 +62,7 @@ body {
 h1 {
   font-size: 4rem;
   line-height: 150%;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 800;
 }
 
@@ -76,7 +76,7 @@ h1 {
 h2 {
   font-size: 4rem;
   line-height: 150%;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 800;
 }
 
@@ -90,21 +90,21 @@ h2 {
 h3 {
   font-size: 2.25rem;
   line-height: 150%;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
 }
 
 p {
   font-size: 1.125rem;
   line-height: 2.625rem;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 300;
 }
 
 td {
   font-size: 1.125rem;
   line-height: 2.625rem;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 300;
 }
 
@@ -117,24 +117,24 @@ td {
 }
 
 .robotolight {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 300;
 }
 
 .poppinsregular {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
 }
 
 .poppinsbold {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
 }
 
 .logo {
   width: 2.625rem;
   height: 2.625rem;
-  background: url('/images/sensyo-logomark-monoblack.png');
+  background: url("/images/sensyo-logomark-monoblack.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -221,7 +221,7 @@ ul {
   min-height: 9.375rem;
   max-width: 9.375rem;
   max-height: 9.375rem;
-  background: url('/images/airplanes-wing-taken-by-sheila.jpg');
+  background: url("/images/airplanes-wing-taken-by-sheila.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -234,7 +234,7 @@ ul {
   min-height: 9.375rem;
   max-width: 9.375rem;
   max-height: 9.375rem;
-  background: url('/images/chemistry-glass-containers-by-rodolfo-clix.jpg');
+  background: url("/images/chemistry-glass-containers-by-rodolfo-clix.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -247,7 +247,7 @@ ul {
   min-height: 9.375rem;
   max-width: 9.375rem;
   max-height: 9.375rem;
-  background: url('/images/two-men-talking-about-plating.jpg');
+  background: url("/images/two-men-talking-about-plating.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -260,7 +260,7 @@ ul {
   min-height: 9.375rem;
   max-width: 9.375rem;
   max-height: 9.375rem;
-  background: url('/images/image 2-min.png');
+  background: url("/images/image 2-min.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -273,7 +273,7 @@ ul {
   min-height: 9.375rem;
   max-width: 9.375rem;
   max-height: 9.375rem;
-  background: url('/images/PINSETTO.webp');
+  background: url("/images/straw.webp");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -286,7 +286,7 @@ ul {
   min-height: 9.375rem;
   max-width: 9.375rem;
   max-height: 9.375rem;
-  background: url('/images/image 2-4-min.png');
+  background: url("/images/image 2-4-min.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -299,7 +299,7 @@ ul {
   min-height: 9.375rem;
   max-width: 9.375rem;
   max-height: 9.375rem;
-  background: url('/images/image 2-1-min.png');
+  background: url("/images/image 2-1-min.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -312,7 +312,7 @@ ul {
   min-height: 9.375rem;
   max-width: 9.375rem;
   max-height: 9.375rem;
-  background: url('/images/image 2-3-min.png');
+  background: url("/images/image 2-3-min.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -325,7 +325,7 @@ ul {
   min-height: 9.375rem;
   max-width: 9.375rem;
   max-height: 9.375rem;
-  background: url('/images/image 2-2-min.png');
+  background: url("/images/image 2-2-min.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -352,7 +352,7 @@ label {
   .ceophoto {
     width: 12.5rem;
     height: 12.5rem;
-    background: url('/images/ceo-of-sensyo-horiuchi-mayuko.jpg');
+    background: url("/images/ceo-of-sensyo-horiuchi-mayuko.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -384,7 +384,7 @@ label {
   .ceophoto {
     width: 12.5rem;
     height: 12.5rem;
-    background: url('/images/ceo-of-sensyo-horiuchi-mayuko.jpg');
+    background: url("/images/ceo-of-sensyo-horiuchi-mayuko.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -396,7 +396,17 @@ label {
 
 .homeheroimage {
   width: 100%;
-  background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 100%), url('/images/white-room-filled-with-medical-equipment.jpeg');
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.5) 0%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    url("/images/white-room-filled-with-medical-equipment.jpeg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -405,7 +415,8 @@ label {
 
 .footerleft {
   width: 100%;
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('/images/sensyo-metal-finishing-and-plating-factory.jpg');
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("/images/sensyo-metal-finishing-and-plating-factory.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -414,7 +425,7 @@ label {
 
 .aboutheroimage {
   width: 100%;
-  background: url('/images/sensyo-metal-finishing-and-plating-factory-line-from-aboe.jpg');
+  background: url("/images/sensyo-metal-finishing-and-plating-factory-line-from-aboe.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -423,7 +434,17 @@ label {
 
 .servicesheroimage {
   width: 100%;
-  background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 100%), url('/images/bullettrain-at-the-platform-taken-by-donald-tong.jpg');
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.5) 0%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    url("/images/bullettrain-at-the-platform-taken-by-donald-tong.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
